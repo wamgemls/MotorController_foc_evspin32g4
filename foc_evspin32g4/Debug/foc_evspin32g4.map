@@ -435,7 +435,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x1bc ./Application/MotorControl/digital_output.o
  .debug_macro   0x0000000000000000       0x10 ./Application/MotorControl/digital_output.o
  .debug_line    0x0000000000000000      0x9ec ./Application/MotorControl/digital_output.o
- .debug_str     0x0000000000000000    0xedb32 ./Application/MotorControl/digital_output.o
+ .debug_str     0x0000000000000000    0xedba3 ./Application/MotorControl/digital_output.o
  .comment       0x0000000000000000       0x54 ./Application/MotorControl/digital_output.o
  .debug_frame   0x0000000000000000       0x30 ./Application/MotorControl/digital_output.o
  .ARM.attributes
@@ -1046,7 +1046,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x1c ./Application/MotorControl/open_loop.o
  .debug_macro   0x0000000000000000      0x1bc ./Application/MotorControl/open_loop.o
  .debug_line    0x0000000000000000      0xa38 ./Application/MotorControl/open_loop.o
- .debug_str     0x0000000000000000    0xedd06 ./Application/MotorControl/open_loop.o
+ .debug_str     0x0000000000000000    0xedd77 ./Application/MotorControl/open_loop.o
  .comment       0x0000000000000000       0x54 ./Application/MotorControl/open_loop.o
  .debug_frame   0x0000000000000000       0x68 ./Application/MotorControl/open_loop.o
  .ARM.attributes
@@ -5316,7 +5316,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x218 ./Application/User/stm32g4xx_it.o
  .debug_macro   0x0000000000000000      0x142 ./Application/User/stm32g4xx_it.o
  .debug_line    0x0000000000000000      0xc51 ./Application/User/stm32g4xx_it.o
- .debug_str     0x0000000000000000    0xf5a02 ./Application/User/stm32g4xx_it.o
+ .debug_str     0x0000000000000000    0xf5a73 ./Application/User/stm32g4xx_it.o
  .comment       0x0000000000000000       0x54 ./Application/User/stm32g4xx_it.o
  .ARM.attributes
                 0x0000000000000000       0x35 ./Application/User/stm32g4xx_it.o
@@ -5608,7 +5608,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x16 ./Application/User/syscalls.o
  .debug_macro   0x0000000000000000       0xce ./Application/User/syscalls.o
  .debug_line    0x0000000000000000      0x8b4 ./Application/User/syscalls.o
- .debug_str     0x0000000000000000     0x8f1d ./Application/User/syscalls.o
+ .debug_str     0x0000000000000000     0x8f8e ./Application/User/syscalls.o
  .comment       0x0000000000000000       0x54 ./Application/User/syscalls.o
  .debug_frame   0x0000000000000000      0x190 ./Application/User/syscalls.o
  .ARM.attributes
@@ -5671,7 +5671,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Application/User/sysmem.o
  .debug_macro   0x0000000000000000      0x1df ./Application/User/sysmem.o
  .debug_line    0x0000000000000000      0x538 ./Application/User/sysmem.o
- .debug_str     0x0000000000000000     0x62d6 ./Application/User/sysmem.o
+ .debug_str     0x0000000000000000     0x6347 ./Application/User/sysmem.o
  .comment       0x0000000000000000       0x54 ./Application/User/sysmem.o
  .debug_frame   0x0000000000000000       0x28 ./Application/User/sysmem.o
  .ARM.attributes
@@ -6913,7 +6913,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xa6 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_dac_ex.o
  .debug_macro   0x0000000000000000      0x307 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_dac_ex.o
  .debug_line    0x0000000000000000     0x120c ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_dac_ex.o
- .debug_str     0x0000000000000000    0xd7d0c ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_dac_ex.o
+ .debug_str     0x0000000000000000    0xd7d7d ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_dac_ex.o
  .comment       0x0000000000000000       0x54 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_dac_ex.o
  .debug_frame   0x0000000000000000      0x264 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_dac_ex.o
  .ARM.attributes
@@ -7156,7 +7156,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xa6 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_dma_ex.o
  .debug_macro   0x0000000000000000      0x307 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_dma_ex.o
  .debug_line    0x0000000000000000      0xa6c ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_dma_ex.o
- .debug_str     0x0000000000000000    0xd7920 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_dma_ex.o
+ .debug_str     0x0000000000000000    0xd7991 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_dma_ex.o
  .comment       0x0000000000000000       0x54 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_dma_ex.o
  .debug_frame   0x0000000000000000       0x9c ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_dma_ex.o
  .ARM.attributes
@@ -7286,7 +7286,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xa6 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_exti.o
  .debug_macro   0x0000000000000000      0x307 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_exti.o
  .debug_line    0x0000000000000000      0xd23 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_exti.o
- .debug_str     0x0000000000000000    0xd774c ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_exti.o
+ .debug_str     0x0000000000000000    0xd77bd ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_exti.o
  .comment       0x0000000000000000       0x54 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_exti.o
  .debug_frame   0x0000000000000000      0x118 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_exti.o
  .ARM.attributes
@@ -7423,7 +7423,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xa6 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_flash.o
  .debug_macro   0x0000000000000000      0x307 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_flash.o
  .debug_line    0x0000000000000000     0x10a4 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_flash.o
- .debug_str     0x0000000000000000    0xd77ab ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_flash.o
+ .debug_str     0x0000000000000000    0xd781c ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_flash.o
  .comment       0x0000000000000000       0x54 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_flash.o
  .debug_frame   0x0000000000000000      0x120 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_flash.o
  .ARM.attributes
@@ -7553,7 +7553,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xa6 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_flash_ex.o
  .debug_macro   0x0000000000000000      0x307 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_flash_ex.o
  .debug_line    0x0000000000000000     0x1267 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_flash_ex.o
- .debug_str     0x0000000000000000    0xd78bb ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_flash_ex.o
+ .debug_str     0x0000000000000000    0xd792c ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_flash_ex.o
  .comment       0x0000000000000000       0x54 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_flash_ex.o
  .debug_frame   0x0000000000000000       0xe4 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_flash_ex.o
  .ARM.attributes
@@ -7665,7 +7665,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xa6 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_flash_ramfunc.o
  .debug_macro   0x0000000000000000      0x307 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_flash_ramfunc.o
  .debug_line    0x0000000000000000      0x810 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_flash_ramfunc.o
- .debug_str     0x0000000000000000    0xd7592 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_flash_ramfunc.o
+ .debug_str     0x0000000000000000    0xd7603 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_flash_ramfunc.o
  .comment       0x0000000000000000       0x54 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_flash_ramfunc.o
  .debug_frame   0x0000000000000000       0x30 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_flash_ramfunc.o
  .ARM.attributes
@@ -8339,7 +8339,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xa6 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_opamp_ex.o
  .debug_macro   0x0000000000000000      0x307 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_opamp_ex.o
  .debug_line    0x0000000000000000      0xb65 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_opamp_ex.o
- .debug_str     0x0000000000000000    0xd775d ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_opamp_ex.o
+ .debug_str     0x0000000000000000    0xd77ce ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_opamp_ex.o
  .comment       0x0000000000000000       0x54 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_opamp_ex.o
  .debug_frame   0x0000000000000000       0x64 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_opamp_ex.o
  .ARM.attributes
@@ -8483,7 +8483,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xa6 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_pwr.o
  .debug_macro   0x0000000000000000      0x307 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_pwr.o
  .debug_line    0x0000000000000000      0xa0a ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_pwr.o
- .debug_str     0x0000000000000000    0xd7a10 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_pwr.o
+ .debug_str     0x0000000000000000    0xd7a81 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_pwr.o
  .comment       0x0000000000000000       0x54 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_pwr.o
  .debug_frame   0x0000000000000000      0x124 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_pwr.o
  .ARM.attributes
@@ -9812,7 +9812,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x11 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_ll_adc.o
  .debug_macro   0x0000000000000000      0xaba ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_ll_adc.o
  .debug_line    0x0000000000000000       0x53 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_ll_adc.o
- .debug_str     0x0000000000000000     0x2dfa ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_ll_adc.o
+ .debug_str     0x0000000000000000     0x2e6b ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_ll_adc.o
  .comment       0x0000000000000000       0x54 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_ll_adc.o
  .ARM.attributes
                 0x0000000000000000       0x35 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_ll_adc.o
@@ -12025,117 +12025,117 @@ LOAD c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
  .debug_line    0x00000000000450dd     0x40e0 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_uart.o
  .debug_line    0x00000000000491bd     0x13d7 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_uart_ex.o
 
-.debug_str      0x0000000000000000   0x105bfa
- .debug_str     0x0000000000000000    0xeb349 ./Application/MotorControl/bus_voltage_sensor.o
-                                      0xedb81 (size before relaxing)
- .debug_str     0x00000000000eb349     0x24be ./Application/MotorControl/circle_limitation.o
-                                      0xefe9f (size before relaxing)
- .debug_str     0x00000000000ed807     0x8715 ./Application/MotorControl/mcp.o
-                                      0xf898f (size before relaxing)
- .debug_str     0x00000000000f5f1c     0x3257 ./Application/MotorControl/mcpa.o
-                                       0xa259 (size before relaxing)
- .debug_str     0x00000000000f9173       0xab ./Application/MotorControl/motor_power_measurement.o
-                                      0xedb21 (size before relaxing)
- .debug_str     0x00000000000f921e       0xd7 ./Application/MotorControl/ntc_temperature_sensor.o
-                                      0xedcd5 (size before relaxing)
- .debug_str     0x00000000000f92f5      0x2ca ./Application/MotorControl/pid_regulator.o
-                                      0xeddc8 (size before relaxing)
- .debug_str     0x00000000000f95bf       0x5b ./Application/MotorControl/pqd_motor_power_measurement.o
-                                      0xedd25 (size before relaxing)
- .debug_str     0x00000000000f961a      0x275 ./Application/MotorControl/pwm_common.o
-                                      0xedd0f (size before relaxing)
- .debug_str     0x00000000000f988f      0x931 ./Application/MotorControl/r3_2_g4xx_pwm_curr_fdbk.o
-                                      0xeee51 (size before relaxing)
- .debug_str     0x00000000000fa1c0       0xaa ./Application/MotorControl/r_divider_bus_voltage_sensor.o
-                                      0xeddaf (size before relaxing)
- .debug_str     0x00000000000fa26a       0xff ./Application/MotorControl/ramp_ext_mngr.o
-                                      0xedb54 (size before relaxing)
- .debug_str     0x00000000000fa369      0x138 ./Application/MotorControl/speed_pos_fdbk.o
-                                      0xedc65 (size before relaxing)
- .debug_str     0x00000000000fa4a1      0x275 ./Application/MotorControl/speed_torq_ctrl.o
-                                      0xee0a0 (size before relaxing)
- .debug_str     0x00000000000fa716       0xf2 ./Application/MotorControl/state_machine.o
-                                      0xedbed (size before relaxing)
- .debug_str     0x00000000000fa808      0x523 ./Application/MotorControl/stspin32g4.o
-                                      0xd84f8 (size before relaxing)
- .debug_str     0x00000000000fad2b      0x1ba ./Application/MotorControl/virtual_speed_sensor.o
-                                      0xede30 (size before relaxing)
- .debug_str     0x00000000000faee5       0x3d ./Application/Startup/startup_stm32g431vbtx.o
-                                         0x69 (size before relaxing)
- .debug_str     0x00000000000faf22      0x22d ./Application/User/aspep.o
-                                      0xf3546 (size before relaxing)
- .debug_str     0x00000000000fb14f       0xdf ./Application/User/dac_ui.o
-                                      0xf019c (size before relaxing)
- .debug_str     0x00000000000fb22e     0x1d9e ./Application/User/main.o
-                                      0xf75af (size before relaxing)
- .debug_str     0x00000000000fcfcc      0x4d9 ./Application/User/mc_api.o
-                                      0xf0551 (size before relaxing)
- .debug_str     0x00000000000fd4a5       0xbd ./Application/User/mc_config.o
-                                      0xf5a89 (size before relaxing)
- .debug_str     0x00000000000fd562      0x653 ./Application/User/mc_configuration_registers.o
-                                      0xf68c4 (size before relaxing)
- .debug_str     0x00000000000fdbb5       0xe9 ./Application/User/mc_interface.o
-                                      0xf0925 (size before relaxing)
- .debug_str     0x00000000000fdc9e      0x1cb ./Application/User/mc_math.o
-                                      0xeffed (size before relaxing)
- .debug_str     0x00000000000fde69       0x37 ./Application/User/mc_parameters.o
-                                      0xf5a39 (size before relaxing)
- .debug_str     0x00000000000fdea0      0x80a ./Application/User/mc_tasks.o
-                                      0xf71d0 (size before relaxing)
- .debug_str     0x00000000000fe6aa       0xfd ./Application/User/mcp_config.o
-                                      0xf3995 (size before relaxing)
- .debug_str     0x00000000000fe7a7       0x4a ./Application/User/motorcontrol.o
-                                      0xf5a43 (size before relaxing)
- .debug_str     0x00000000000fe7f1      0x3a6 ./Application/User/pwm_curr_fdbk.o
-                                      0xf058e (size before relaxing)
- .debug_str     0x00000000000feb97      0x288 ./Application/User/register_interface.o
-                                      0xfc62a (size before relaxing)
- .debug_str     0x00000000000fee1f      0x286 ./Application/User/regular_conversion_manager.o
-                                      0xf043b (size before relaxing)
- .debug_str     0x00000000000ff0a5      0x1eb ./Application/User/stm32g4xx_hal_msp.o
-                                      0xf6b6f (size before relaxing)
- .debug_str     0x00000000000ff290      0x9de ./Application/User/stm32g4xx_mc_it.o
-                                      0xf6a97 (size before relaxing)
- .debug_str     0x00000000000ffc6e       0xb7 ./Application/User/system_stm32g4xx.o
-                                      0xd7680 (size before relaxing)
- .debug_str     0x00000000000ffd25      0x175 ./Application/User/usart_aspep_driver.o
-                                      0xed585 (size before relaxing)
- .debug_str     0x00000000000ffe9a      0x4d4 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal.o
-                                      0xd818e (size before relaxing)
- .debug_str     0x000000000010036e      0xa16 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_adc.o
-                                      0xd86a4 (size before relaxing)
- .debug_str     0x0000000000100d84      0x445 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_adc_ex.o
-                                      0xd85ef (size before relaxing)
- .debug_str     0x00000000001011c9      0x25f ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_cordic.o
-                                      0xd7b24 (size before relaxing)
- .debug_str     0x0000000000101428      0x302 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_cortex.o
-                                      0xd7e51 (size before relaxing)
- .debug_str     0x000000000010172a      0x239 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_dac.o
-                                      0xd7ce9 (size before relaxing)
- .debug_str     0x0000000000101963      0x27c ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_dma.o
-                                      0xd7a55 (size before relaxing)
- .debug_str     0x0000000000101bdf      0x18a ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_gpio.o
-                                      0xd78e4 (size before relaxing)
- .debug_str     0x0000000000101d69      0xcec ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_i2c.o
-                                      0xd88c6 (size before relaxing)
- .debug_str     0x0000000000102a55       0xb4 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_i2c_ex.o
+.debug_str      0x0000000000000000   0x105c6b
+ .debug_str     0x0000000000000000    0xeb3ba ./Application/MotorControl/bus_voltage_sensor.o
+                                      0xedbf2 (size before relaxing)
+ .debug_str     0x00000000000eb3ba     0x24be ./Application/MotorControl/circle_limitation.o
+                                      0xeff10 (size before relaxing)
+ .debug_str     0x00000000000ed878     0x8715 ./Application/MotorControl/mcp.o
+                                      0xf8a00 (size before relaxing)
+ .debug_str     0x00000000000f5f8d     0x3257 ./Application/MotorControl/mcpa.o
+                                       0xa2ca (size before relaxing)
+ .debug_str     0x00000000000f91e4       0xab ./Application/MotorControl/motor_power_measurement.o
+                                      0xedb92 (size before relaxing)
+ .debug_str     0x00000000000f928f       0xd7 ./Application/MotorControl/ntc_temperature_sensor.o
+                                      0xedd46 (size before relaxing)
+ .debug_str     0x00000000000f9366      0x2ca ./Application/MotorControl/pid_regulator.o
+                                      0xede39 (size before relaxing)
+ .debug_str     0x00000000000f9630       0x5b ./Application/MotorControl/pqd_motor_power_measurement.o
+                                      0xedd96 (size before relaxing)
+ .debug_str     0x00000000000f968b      0x275 ./Application/MotorControl/pwm_common.o
+                                      0xedd80 (size before relaxing)
+ .debug_str     0x00000000000f9900      0x931 ./Application/MotorControl/r3_2_g4xx_pwm_curr_fdbk.o
+                                      0xeeec2 (size before relaxing)
+ .debug_str     0x00000000000fa231       0xaa ./Application/MotorControl/r_divider_bus_voltage_sensor.o
+                                      0xede20 (size before relaxing)
+ .debug_str     0x00000000000fa2db       0xff ./Application/MotorControl/ramp_ext_mngr.o
+                                      0xedbc5 (size before relaxing)
+ .debug_str     0x00000000000fa3da      0x138 ./Application/MotorControl/speed_pos_fdbk.o
+                                      0xedcd6 (size before relaxing)
+ .debug_str     0x00000000000fa512      0x275 ./Application/MotorControl/speed_torq_ctrl.o
+                                      0xee111 (size before relaxing)
+ .debug_str     0x00000000000fa787       0xf2 ./Application/MotorControl/state_machine.o
+                                      0xedc5e (size before relaxing)
+ .debug_str     0x00000000000fa879      0x523 ./Application/MotorControl/stspin32g4.o
+                                      0xd8569 (size before relaxing)
+ .debug_str     0x00000000000fad9c      0x1ba ./Application/MotorControl/virtual_speed_sensor.o
+                                      0xedea1 (size before relaxing)
+ .debug_str     0x00000000000faf56       0x3d ./Application/Startup/startup_stm32g431vbtx.o
+                                         0xda (size before relaxing)
+ .debug_str     0x00000000000faf93      0x22d ./Application/User/aspep.o
+                                      0xf35b7 (size before relaxing)
+ .debug_str     0x00000000000fb1c0       0xdf ./Application/User/dac_ui.o
+                                      0xf020d (size before relaxing)
+ .debug_str     0x00000000000fb29f     0x1d9e ./Application/User/main.o
+                                      0xf7620 (size before relaxing)
+ .debug_str     0x00000000000fd03d      0x4d9 ./Application/User/mc_api.o
+                                      0xf05c2 (size before relaxing)
+ .debug_str     0x00000000000fd516       0xbd ./Application/User/mc_config.o
+                                      0xf5afa (size before relaxing)
+ .debug_str     0x00000000000fd5d3      0x653 ./Application/User/mc_configuration_registers.o
+                                      0xf6935 (size before relaxing)
+ .debug_str     0x00000000000fdc26       0xe9 ./Application/User/mc_interface.o
+                                      0xf0996 (size before relaxing)
+ .debug_str     0x00000000000fdd0f      0x1cb ./Application/User/mc_math.o
+                                      0xf005e (size before relaxing)
+ .debug_str     0x00000000000fdeda       0x37 ./Application/User/mc_parameters.o
+                                      0xf5aaa (size before relaxing)
+ .debug_str     0x00000000000fdf11      0x80a ./Application/User/mc_tasks.o
+                                      0xf7241 (size before relaxing)
+ .debug_str     0x00000000000fe71b       0xfd ./Application/User/mcp_config.o
+                                      0xf3a06 (size before relaxing)
+ .debug_str     0x00000000000fe818       0x4a ./Application/User/motorcontrol.o
+                                      0xf5ab4 (size before relaxing)
+ .debug_str     0x00000000000fe862      0x3a6 ./Application/User/pwm_curr_fdbk.o
+                                      0xf05ff (size before relaxing)
+ .debug_str     0x00000000000fec08      0x288 ./Application/User/register_interface.o
+                                      0xfc69b (size before relaxing)
+ .debug_str     0x00000000000fee90      0x286 ./Application/User/regular_conversion_manager.o
+                                      0xf04ac (size before relaxing)
+ .debug_str     0x00000000000ff116      0x1eb ./Application/User/stm32g4xx_hal_msp.o
+                                      0xf6be0 (size before relaxing)
+ .debug_str     0x00000000000ff301      0x9de ./Application/User/stm32g4xx_mc_it.o
+                                      0xf6b08 (size before relaxing)
+ .debug_str     0x00000000000ffcdf       0xb7 ./Application/User/system_stm32g4xx.o
+                                      0xd76f1 (size before relaxing)
+ .debug_str     0x00000000000ffd96      0x175 ./Application/User/usart_aspep_driver.o
+                                      0xed5f6 (size before relaxing)
+ .debug_str     0x00000000000fff0b      0x4d4 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal.o
+                                      0xd81ff (size before relaxing)
+ .debug_str     0x00000000001003df      0xa16 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_adc.o
+                                      0xd8715 (size before relaxing)
+ .debug_str     0x0000000000100df5      0x445 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_adc_ex.o
+                                      0xd8660 (size before relaxing)
+ .debug_str     0x000000000010123a      0x25f ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_cordic.o
+                                      0xd7b95 (size before relaxing)
+ .debug_str     0x0000000000101499      0x302 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_cortex.o
+                                      0xd7ec2 (size before relaxing)
+ .debug_str     0x000000000010179b      0x239 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_dac.o
+                                      0xd7d5a (size before relaxing)
+ .debug_str     0x00000000001019d4      0x27c ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_dma.o
+                                      0xd7ac6 (size before relaxing)
+ .debug_str     0x0000000000101c50      0x18a ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_gpio.o
+                                      0xd7955 (size before relaxing)
+ .debug_str     0x0000000000101dda      0xcec ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_i2c.o
+                                      0xd8937 (size before relaxing)
+ .debug_str     0x0000000000102ac6       0xb4 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_i2c_ex.o
+                                      0xd7cf9 (size before relaxing)
+ .debug_str     0x0000000000102b7a      0x310 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_opamp.o
+                                      0xd7bc4 (size before relaxing)
+ .debug_str     0x0000000000102e8a      0x48c ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_pwr_ex.o
+                                      0xd7bef (size before relaxing)
+ .debug_str     0x0000000000103316      0x341 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_rcc.o
                                       0xd7c88 (size before relaxing)
- .debug_str     0x0000000000102b09      0x310 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_opamp.o
-                                      0xd7b53 (size before relaxing)
- .debug_str     0x0000000000102e19      0x48c ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_pwr_ex.o
-                                      0xd7b7e (size before relaxing)
- .debug_str     0x00000000001032a5      0x341 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_rcc.o
-                                      0xd7c17 (size before relaxing)
- .debug_str     0x00000000001035e6      0x3f5 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_rcc_ex.o
-                                      0xd7d98 (size before relaxing)
- .debug_str     0x00000000001039db      0xe3c ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_tim.o
-                                      0xd8b18 (size before relaxing)
- .debug_str     0x0000000000104817      0x81d ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_tim_ex.o
-                                      0xd8788 (size before relaxing)
- .debug_str     0x0000000000105034      0x980 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_uart.o
-                                      0xd85ad (size before relaxing)
- .debug_str     0x00000000001059b4      0x246 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_uart_ex.o
-                                      0xd7d95 (size before relaxing)
+ .debug_str     0x0000000000103657      0x3f5 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_rcc_ex.o
+                                      0xd7e09 (size before relaxing)
+ .debug_str     0x0000000000103a4c      0xe3c ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_tim.o
+                                      0xd8b89 (size before relaxing)
+ .debug_str     0x0000000000104888      0x81d ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_tim_ex.o
+                                      0xd87f9 (size before relaxing)
+ .debug_str     0x00000000001050a5      0x980 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_uart.o
+                                      0xd861e (size before relaxing)
+ .debug_str     0x0000000000105a25      0x246 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_uart_ex.o
+                                      0xd7e06 (size before relaxing)
 
 .comment        0x0000000000000000       0xd2
  .comment       0x0000000000000000       0x53 ./Application/MotorControl/bus_voltage_sensor.o

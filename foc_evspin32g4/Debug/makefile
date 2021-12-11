@@ -62,8 +62,8 @@ all: main-build
 main-build: foc_evspin32g4.elf secondary-outputs
 
 # Tool invocations
-foc_evspin32g4.elf: $(OBJS) $(USER_OBJS) C:\Users\wamge\Desktop\foc_evspin32g4\STM32G431VBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "foc_evspin32g4.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\wamge\Desktop\foc_evspin32g4\STM32G431VBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="foc_evspin32g4.map" -Wl,--gc-sections -static -L"../MCSDK_v5.Y.3\MotorControl\lib" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+foc_evspin32g4.elf: $(OBJS) $(USER_OBJS) C:\Users\wamge\OneDrive\Hochschule\HM\ -\ Elektrotechnik\ MSc\Kurse\1.\ Semester\Projekt\ Elektrische\ Fahrzeugantriebe\GitRep\foc_evspin32g4\foc_evspin32g4\STM32G431VBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "foc_evspin32g4.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\wamge\OneDrive\Hochschule\HM - Elektrotechnik MSc\Kurse\1. Semester\Projekt Elektrische Fahrzeugantriebe\GitRep\foc_evspin32g4\foc_evspin32g4\STM32G431VBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="foc_evspin32g4.map" -Wl,--gc-sections -static -L"../MCSDK_v5.Y.3\MotorControl\lib" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
