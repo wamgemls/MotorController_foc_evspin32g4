@@ -1,4 +1,0 @@
-dac_ui.c:55:13:DAC_Init	16	static
-dac_ui.c:72:13:DAC_Exec	12	static
-dac_ui.c:96:13:DAC_SetChannelConfig	0	static
-dac_ui.c:102:10:DAC_GetChannelConfig	0	static
