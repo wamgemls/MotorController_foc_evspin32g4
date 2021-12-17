@@ -31,10 +31,6 @@ extern "C" {
 #include "stm32g4xx_hal.h"
 #include "motorcontrol.h"
 
-
-void ADC_Select_CH12();
-uint16_t ADC_PB2();
-
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -67,6 +63,8 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define M1_BUS_VOLTAGE_Pin GPIO_PIN_1
 #define M1_BUS_VOLTAGE_GPIO_Port GPIOC
+#define Test_Pin9_Pin GPIO_PIN_3
+#define Test_Pin9_GPIO_Port GPIOC
 #define M1_CURR_SHUNT_U_Pin GPIO_PIN_1
 #define M1_CURR_SHUNT_U_GPIO_Port GPIOA
 #define M1_OPAMP1_OUT_Pin GPIO_PIN_2

@@ -114,12 +114,13 @@ void HAL_ADC_MspInit(ADC_HandleTypeDef* hadc)
     __HAL_RCC_GPIOA_CLK_ENABLE();
     /**ADC1 GPIO Configuration
     PC1     ------> ADC1_IN7
+    PC3     ------> ADC1_IN9
     PA2     ------> ADC1_IN3
     */
-    GPIO_InitStruct.Pin = M1_BUS_VOLTAGE_Pin;
+    GPIO_InitStruct.Pin = M1_BUS_VOLTAGE_Pin|Test_Pin9_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
-    HAL_GPIO_Init(M1_BUS_VOLTAGE_GPIO_Port, &GPIO_InitStruct);
+    HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
     GPIO_InitStruct.Pin = M1_OPAMP1_OUT_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
@@ -150,11 +151,6 @@ void HAL_ADC_MspInit(ADC_HandleTypeDef* hadc)
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     HAL_GPIO_Init(M1_OPAMP2_OUT_GPIO_Port, &GPIO_InitStruct);
 
-    GPIO_InitStruct.Pin = GPIO_PIN_2;
-    GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
-    GPIO_InitStruct.Pull = GPIO_NOPULL;
-    HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
-
   /* USER CODE BEGIN ADC2_MspInit 1 */
 
   /* USER CODE END ADC2_MspInit 1 */
@@ -183,9 +179,10 @@ void HAL_ADC_MspDeInit(ADC_HandleTypeDef* hadc)
 
     /**ADC1 GPIO Configuration
     PC1     ------> ADC1_IN7
+    PC3     ------> ADC1_IN9
     PA2     ------> ADC1_IN3
     */
-    HAL_GPIO_DeInit(M1_BUS_VOLTAGE_GPIO_Port, M1_BUS_VOLTAGE_Pin);
+    HAL_GPIO_DeInit(GPIOC, M1_BUS_VOLTAGE_Pin|Test_Pin9_Pin);
 
     HAL_GPIO_DeInit(M1_OPAMP1_OUT_GPIO_Port, M1_OPAMP1_OUT_Pin);
 
@@ -218,12 +215,14 @@ void HAL_ADC_MspDeInit(ADC_HandleTypeDef* hadc)
     */
     HAL_GPIO_DeInit(M1_OPAMP2_OUT_GPIO_Port, M1_OPAMP2_OUT_Pin);
 
-
-
-    /**ADC2 GPIO Configuration
-    PB2     ------> ADC2_IN12
+    /* ADC2 interrupt DeInit */
+  /* USER CODE BEGIN ADC2:ADC1_2_IRQn disable */
+    /**
+    * Uncomment the line below to disable the "ADC1_2_IRQn" interrupt
+    * Be aware, disabling shared interrupt may affect other IPs
     */
-    HAL_GPIO_DeInit(GPIOB, GPIO_PIN_2);
+    /* HAL_NVIC_DisableIRQ(ADC1_2_IRQn); */
+  /* USER CODE END ADC2:ADC1_2_IRQn disable */
 
   /* USER CODE BEGIN ADC2_MspDeInit 1 */
 

@@ -85,37 +85,6 @@ static void MX_NVIC_Init(void);
 
 /* USER CODE END 0 */
 
-void ADC_Select_CH12 (void)
-{
-	ADC_ChannelConfTypeDef sConfig = {0};
-
-	sConfig.Channel = ADC_CHANNEL_12;
-	  sConfig.Rank = ADC_REGULAR_RANK_2;
-	  sConfig.SamplingTime = ADC_SAMPLETIME_6CYCLES_5;
-	  sConfig.SingleDiff = ADC_SINGLE_ENDED;
-	  sConfig.OffsetNumber = ADC_OFFSET_NONE;
-	  sConfig.Offset = 0;
-	  if (HAL_ADC_ConfigChannel(&hadc2, &sConfig) != HAL_OK)
-	  {
-	    Error_Handler();
-	  }
-}
-
-uint16_t ADC_PB2(){
-
-	uint16_t raw;
-
-	ADC_Select_CH12();
-	HAL_ADC_Start(&hadc2);
-	HAL_ADC_PollForConversion(&hadc2, 1000);
-	raw = HAL_ADC_GetValue(&hadc2);
-	HAL_ADC_Stop(&hadc2);
-
-	return(raw);
-};
-
-
-
 /**
   * @brief  The application entry point.
   * @retval int
@@ -283,11 +252,11 @@ static void MX_ADC1_Init(void)
   hadc1.Init.Resolution = ADC_RESOLUTION_12B;
   hadc1.Init.DataAlign = ADC_DATAALIGN_LEFT;
   hadc1.Init.GainCompensation = 0;
-  hadc1.Init.ScanConvMode = ADC_SCAN_DISABLE;
+  hadc1.Init.ScanConvMode = ADC_SCAN_ENABLE;
   hadc1.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
   hadc1.Init.LowPowerAutoWait = DISABLE;
   hadc1.Init.ContinuousConvMode = DISABLE;
-  hadc1.Init.NbrOfConversion = 1;
+  hadc1.Init.NbrOfConversion = 2;
   hadc1.Init.DiscontinuousConvMode = DISABLE;
   hadc1.Init.ExternalTrigConv = ADC_SOFTWARE_START;
   hadc1.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
@@ -336,6 +305,15 @@ static void MX_ADC1_Init(void)
   {
     Error_Handler();
   }
+  /** Configure Regular Channel
+  */
+  sConfig.Channel = ADC_CHANNEL_9;
+  sConfig.Rank = ADC_REGULAR_RANK_2;
+  sConfig.SamplingTime = ADC_SAMPLETIME_6CYCLES_5;
+  if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
   /* USER CODE BEGIN ADC1_Init 2 */
 
   /* USER CODE END ADC1_Init 2 */
@@ -354,10 +332,8 @@ static void MX_ADC2_Init(void)
 
   /* USER CODE END ADC2_Init 0 */
 
-
-
   ADC_InjectionConfTypeDef sConfigInjected = {0};
- ADC_ChannelConfTypeDef sConfig = {0};
+
   /* USER CODE BEGIN ADC2_Init 1 */
 
   /* USER CODE END ADC2_Init 1 */
@@ -381,13 +357,6 @@ static void MX_ADC2_Init(void)
   {
     Error_Handler();
   }
-
- /* multimode.Mode = ADC_MODE_INDEPENDENT;
-    if (HAL_ADCEx_MultiModeConfigChannel(&hadc2, &multimode) != HAL_OK)
-    {
-      Error_Handler();
-    }*/
-
   /** Configure Injected Channel
   */
   sConfigInjected.InjectedChannel = ADC_CHANNEL_3;
@@ -411,6 +380,7 @@ static void MX_ADC2_Init(void)
 
   /* USER CODE END ADC2_Init 2 */
 
+}
 
 /**
   * @brief CORDIC Initialization Function

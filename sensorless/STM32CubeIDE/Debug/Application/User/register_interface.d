@@ -1,9 +1,13 @@
 Application/User/register_interface.o: \
- C:/Users/wamge/OneDrive/Hochschule/HM\ -\ Elektrotechnik\ MSc/Kurse/1.\ Semester/Projekt\ Elektrische\ Fahrzeugantriebe/MCWB/Alex_gen/sensorless/sensorless/Src/register_interface.c \
- ../../Inc/main.h ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
- ../../Inc/stm32g4xx_hal_conf.h \
- ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h \
- ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h \
+ C:/Users/wamge/OneDrive/Hochschule/HM\ -\ Elektrotechnik\ MSc/Kurse/1.\ Semester/Projekt\ Elektrische\ Fahrzeugantriebe/GitRep/foc_evspin32g4/sensorless/Src/register_interface.c \
+ ../../Inc/register_interface.h \
+ ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/mcp.h \
+ ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/mcptl.h \
+ ../../Inc/mc_config.h \
+ ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/pid_regulator.h \
+ ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/mc_type.h \
+ ../../Inc/mc_stm_types.h \
+ ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h \
  ../../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h \
  ../../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h \
  ../../Drivers/CMSIS/Include/core_cm4.h \
@@ -12,6 +16,10 @@ Application/User/register_interface.o: \
  ../../Drivers/CMSIS/Include/cmsis_gcc.h \
  ../../Drivers/CMSIS/Include/mpu_armv7.h \
  ../../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h \
+ ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
+ ../../Inc/stm32g4xx_hal_conf.h \
+ ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h \
+ ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h \
@@ -39,11 +47,6 @@ Application/User/register_interface.o: \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h \
- ../../Inc/motorcontrol.h ../../Inc/mc_config.h \
- ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/pid_regulator.h \
- ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/mc_type.h \
- ../../Inc/mc_stm_types.h \
- ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_rcc.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_system.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h \
@@ -84,27 +87,30 @@ Application/User/register_interface.o: \
  ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/circle_limitation.h \
  ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/sto_speed_pos_fdbk.h \
  ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/sto_pll_speed_pos_fdbk.h \
+ ../../Inc/mcp_config.h ../../Inc/aspep.h \
  ../../Inc/parameters_conversion.h ../../Inc/mc_math.h \
  ../../Inc/parameters_conversion_g4xx.h ../../Inc/pmsm_motor_parameters.h \
  ../../Inc/drive_parameters.h ../../Inc/power_stage_parameters.h \
- ../../Inc/mc_api.h ../../Inc/register_interface.h \
- ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/mcp.h \
- ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/mcptl.h \
- ../../Inc/mc_config.h ../../Inc/mcp_config.h ../../Inc/aspep.h \
  ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/mcptl.h \
  ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/mcpa.h \
  ../../Inc/dac_ui.h ../../Inc/mc_configuration_registers.h \
  ../../Inc/mcp_config.h
 
-../../Inc/main.h:
+../../Inc/register_interface.h:
 
-../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h:
+../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/mcp.h:
 
-../../Inc/stm32g4xx_hal_conf.h:
+../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/mcptl.h:
 
-../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h:
+../../Inc/mc_config.h:
 
-../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h:
+../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/pid_regulator.h:
+
+../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/mc_type.h:
+
+../../Inc/mc_stm_types.h:
+
+../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h:
 
 ../../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h:
 
@@ -121,6 +127,14 @@ Application/User/register_interface.o: \
 ../../Drivers/CMSIS/Include/mpu_armv7.h:
 
 ../../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h:
+
+../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h:
+
+../../Inc/stm32g4xx_hal_conf.h:
+
+../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h:
+
+../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h:
 
 ../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
 
@@ -175,18 +189,6 @@ Application/User/register_interface.o: \
 ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h:
 
 ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h:
-
-../../Inc/motorcontrol.h:
-
-../../Inc/mc_config.h:
-
-../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/pid_regulator.h:
-
-../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/mc_type.h:
-
-../../Inc/mc_stm_types.h:
-
-../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h:
 
 ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_rcc.h:
 
@@ -270,6 +272,10 @@ Application/User/register_interface.o: \
 
 ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/sto_pll_speed_pos_fdbk.h:
 
+../../Inc/mcp_config.h:
+
+../../Inc/aspep.h:
+
 ../../Inc/parameters_conversion.h:
 
 ../../Inc/mc_math.h:
@@ -281,20 +287,6 @@ Application/User/register_interface.o: \
 ../../Inc/drive_parameters.h:
 
 ../../Inc/power_stage_parameters.h:
-
-../../Inc/mc_api.h:
-
-../../Inc/register_interface.h:
-
-../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/mcp.h:
-
-../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/mcptl.h:
-
-../../Inc/mc_config.h:
-
-../../Inc/mcp_config.h:
-
-../../Inc/aspep.h:
 
 ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/mcptl.h:
 

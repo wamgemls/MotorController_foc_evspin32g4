@@ -14,6 +14,7 @@ RM := rm -rf
 -include Drivers/CMSIS/subdir.mk
 -include Application/User/subdir.mk
 -include Application/Startup/subdir.mk
+-include subdir.mk
 -include objects.mk
 
 ifneq ($(MAKECMDGOALS),clean)
@@ -62,8 +63,8 @@ all: main-build
 main-build: sensorless.elf secondary-outputs
 
 # Tool invocations
-sensorless.elf: $(OBJS) $(USER_OBJS) C:\Users\wamge\OneDrive\Hochschule\HM\ -\ Elektrotechnik\ MSc\Kurse\1.\ Semester\Projekt\ Elektrische\ Fahrzeugantriebe\MCWB\Alex_gen\sensorless\sensorless\STM32CubeIDE\STM32G431VBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "sensorless.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\wamge\OneDrive\Hochschule\HM - Elektrotechnik MSc\Kurse\1. Semester\Projekt Elektrische Fahrzeugantriebe\MCWB\Alex_gen\sensorless\sensorless\STM32CubeIDE\STM32G431VBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sensorless.map" -Wl,--gc-sections -static -L../../MCSDK_v5.Y.3/MotorControl/lib --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+sensorless.elf: $(OBJS) $(USER_OBJS) C:\Users\wamge\OneDrive\Hochschule\HM\ -\ Elektrotechnik\ MSc\Kurse\1.\ Semester\Projekt\ Elektrische\ Fahrzeugantriebe\GitRep\foc_evspin32g4\sensorless\STM32CubeIDE\STM32G431VBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "sensorless.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\wamge\OneDrive\Hochschule\HM - Elektrotechnik MSc\Kurse\1. Semester\Projekt Elektrische Fahrzeugantriebe\GitRep\foc_evspin32g4\sensorless\STM32CubeIDE\STM32G431VBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sensorless.map" -Wl,--gc-sections -static -L../../MCSDK_v5.Y.3/MotorControl/lib --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -84,7 +85,7 @@ sensorless.bin: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 
 # Other Targets
 clean:
-	-$(RM) default.size.stdout sensorless.bin sensorless.elf sensorless.list
+	-$(RM) $(SIZE_OUTPUT)$(OBJDUMP_LIST)$(EXECUTABLES)$(OBJS)$(S_DEPS)$(S_UPPER_DEPS)$(C_DEPS)$(OBJCOPY_BIN) sensorless.elf
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST) $(OBJCOPY_BIN)
@@ -96,6 +97,6 @@ fail-specified-linker-script-missing:
 warn-no-linker-script-specified:
 	@echo 'Warning: No linker script specified. Check the linker settings in the build configuration.'
 
-.PHONY: all clean dependents main-build fail-specified-linker-script-missing warn-no-linker-script-specified
+.PHONY: all clean dependents fail-specified-linker-script-missing warn-no-linker-script-specified
 
 -include ../makefile.targets

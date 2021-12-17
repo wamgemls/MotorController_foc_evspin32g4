@@ -1,5 +1,5 @@
 Middlewares/MotorControl/motor_power_measurement.o: \
- C:/Users/wamge/OneDrive/Hochschule/HM\ -\ Elektrotechnik\ MSc/Kurse/1.\ Semester/Projekt\ Elektrische\ Fahrzeugantriebe/MCWB/Alex_gen/sensorless/sensorless/MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Src/motor_power_measurement.c \
+ C:/Users/wamge/OneDrive/Hochschule/HM\ -\ Elektrotechnik\ MSc/Kurse/1.\ Semester/Projekt\ Elektrische\ Fahrzeugantriebe/GitRep/foc_evspin32g4/sensorless/MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Src/motor_power_measurement.c \
  ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/motor_power_measurement.h \
  ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/mc_type.h \
  ../../Inc/mc_stm_types.h \
