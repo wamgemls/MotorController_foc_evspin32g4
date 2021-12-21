@@ -152,7 +152,7 @@
 		<define key="SP_KDDIV" value="16" />
 		<define key="SPD_DIFFERENTIAL_TERM_ENABLING" value="DISABLE" />
 		<define key="DEFAULT_CONTROL_MODE" value="STC_SPEED_MODE" />
-		<define key="DEFAULT_TARGET_SPEED_RPM" value="200" />
+		<define key="DEFAULT_TARGET_SPEED_RPM" value="1000" />
 		<define key="DEFAULT_TORQUE_COMPONENT" value="0" />
 		<define key="DEFAULT_FLUX_COMPONENT" value="0" />
 		<define key="POSITION_CTRL_ENABLING" value="DISABLE" />
@@ -184,7 +184,7 @@
 		<define key="PHASE5_FINAL_CURRENT" value="509" />
 		<define key="ENABLE_SL_ALGO_FROM_PHASE" value="3" />
 		<define key="TRANSITION_DURATION" value="25" />
-		<define key="OBS_MINIMUM_SPEED_RPM" value="580" />
+		<define key="OBS_MINIMUM_SPEED_RPM" value="500" />
 		<define key="NB_CONSECUTIVE_TESTS" value="2" />
 		<define key="SPEED_BAND_UPPER_LIMIT" value="17" />
 		<define key="SPEED_BAND_LOWER_LIMIT" value="15" />

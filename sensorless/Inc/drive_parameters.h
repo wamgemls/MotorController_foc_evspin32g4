@@ -135,7 +135,7 @@
 /* Default settings */
 #define DEFAULT_CONTROL_MODE           STC_SPEED_MODE /*!< STC_TORQUE_MODE or
                                                         STC_SPEED_MODE */
-#define DEFAULT_TARGET_SPEED_RPM      200
+#define DEFAULT_TARGET_SPEED_RPM      1000
 #define DEFAULT_TARGET_SPEED_UNIT      (DEFAULT_TARGET_SPEED_RPM*SPEED_UNIT/_RPM)
 #define DEFAULT_TORQUE_COMPONENT       0
 #define DEFAULT_FLUX_COMPONENT         0
@@ -193,7 +193,7 @@
 /* Sensor-less rev-up sequence */
 #define STARTING_ANGLE_DEG             90  /*!< degrees [0...359] */
 /* Observer start-up output conditions  */
-#define OBS_MINIMUM_SPEED_RPM          580
+#define OBS_MINIMUM_SPEED_RPM          500
 
 #define NB_CONSECUTIVE_TESTS           2 /* corresponding to
                                                          former NB_CONSECUTIVE_TESTS/

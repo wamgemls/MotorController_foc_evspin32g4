@@ -1,5 +1,5 @@
 Application/User/stm32g4xx_mc_it.o: \
- C:/Users/wamge/OneDrive/Hochschule/HM\ -\ Elektrotechnik\ MSc/Kurse/1.\ Semester/Projekt\ Elektrische\ Fahrzeugantriebe/GitRep/foc_evspin32g4/sensorless/Src/stm32g4xx_mc_it.c \
+ C:/Users/wamge/Desktop/Neuer\ Ordner/sensorless/Src/stm32g4xx_mc_it.c \
  ../../Inc/mc_config.h \
  ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/pid_regulator.h \
  ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/mc_type.h \

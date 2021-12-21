@@ -1,5 +1,5 @@
 Application/User/mc_parameters.o: \
- C:/Users/wamge/OneDrive/Hochschule/HM\ -\ Elektrotechnik\ MSc/Kurse/1.\ Semester/Projekt\ Elektrische\ Fahrzeugantriebe/GitRep/foc_evspin32g4/sensorless/Src/mc_parameters.c \
+ C:/Users/wamge/Desktop/Neuer\ Ordner/sensorless/Src/mc_parameters.c \
  ../../Inc/main.h ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
  ../../Inc/stm32g4xx_hal_conf.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h \

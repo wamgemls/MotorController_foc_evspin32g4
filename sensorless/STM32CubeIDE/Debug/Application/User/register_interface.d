@@ -1,5 +1,5 @@
 Application/User/register_interface.o: \
- C:/Users/wamge/OneDrive/Hochschule/HM\ -\ Elektrotechnik\ MSc/Kurse/1.\ Semester/Projekt\ Elektrische\ Fahrzeugantriebe/GitRep/foc_evspin32g4/sensorless/Src/register_interface.c \
+ C:/Users/wamge/Desktop/Neuer\ Ordner/sensorless/Src/register_interface.c \
  ../../Inc/register_interface.h \
  ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/mcp.h \
  ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/mcptl.h \

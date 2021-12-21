@@ -1,5 +1,5 @@
 Application/User/mc_configuration_registers.o: \
- C:/Users/wamge/OneDrive/Hochschule/HM\ -\ Elektrotechnik\ MSc/Kurse/1.\ Semester/Projekt\ Elektrische\ Fahrzeugantriebe/GitRep/foc_evspin32g4/sensorless/Src/mc_configuration_registers.c \
+ C:/Users/wamge/Desktop/Neuer\ Ordner/sensorless/Src/mc_configuration_registers.c \
  ../../Inc/mc_configuration_registers.h ../../Inc/mcp_config.h \
  ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/mcp.h \
  ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/mcptl.h \

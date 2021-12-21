@@ -1,5 +1,5 @@
 Middlewares/MotorControl/r3_2_g4xx_pwm_curr_fdbk.o: \
- C:/Users/wamge/OneDrive/Hochschule/HM\ -\ Elektrotechnik\ MSc/Kurse/1.\ Semester/Projekt\ Elektrische\ Fahrzeugantriebe/GitRep/foc_evspin32g4/sensorless/MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/G4xx/Src/r3_2_g4xx_pwm_curr_fdbk.c \
+ C:/Users/wamge/Desktop/Neuer\ Ordner/sensorless/MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/G4xx/Src/r3_2_g4xx_pwm_curr_fdbk.c \
  ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/G4xx/Inc/r3_2_g4xx_pwm_curr_fdbk.h \
  ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/pwm_curr_fdbk.h \
  ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/mc_type.h \

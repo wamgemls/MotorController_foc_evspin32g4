@@ -1,5 +1,5 @@
 Middlewares/MotorControl/circle_limitation.o: \
- C:/Users/wamge/OneDrive/Hochschule/HM\ -\ Elektrotechnik\ MSc/Kurse/1.\ Semester/Projekt\ Elektrische\ Fahrzeugantriebe/GitRep/foc_evspin32g4/sensorless/MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Src/circle_limitation.c \
+ C:/Users/wamge/Desktop/Neuer\ Ordner/sensorless/MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Src/circle_limitation.c \
  ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/circle_limitation.h \
  ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/mc_type.h \
  ../../Inc/mc_stm_types.h \
