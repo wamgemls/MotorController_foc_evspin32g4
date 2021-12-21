@@ -69,10 +69,6 @@ void Error_Handler(void);
 #define M1_OPAMP1_OUT_GPIO_Port GPIOA
 #define M1_OPAMP1_EXT_GAIN_Pin GPIO_PIN_3
 #define M1_OPAMP1_EXT_GAIN_GPIO_Port GPIOA
-#define DBG_DAC_CH1_Pin GPIO_PIN_4
-#define DBG_DAC_CH1_GPIO_Port GPIOA
-#define DBG_DAC_CH2_Pin GPIO_PIN_5
-#define DBG_DAC_CH2_GPIO_Port GPIOA
 #define M1_OPAMP2_OUT_Pin GPIO_PIN_6
 #define M1_OPAMP2_OUT_GPIO_Port GPIOA
 #define M1_CURR_SHUNT_V_Pin GPIO_PIN_7

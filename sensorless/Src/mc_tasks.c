@@ -921,7 +921,6 @@ __weak void UI_HandleStartStopButton_cb (void)
   */
 __weak void mc_lock_pins (void)
 {
-LL_GPIO_LockPin(M1_BUS_VOLTAGE_GPIO_Port, M1_BUS_VOLTAGE_Pin);
 LL_GPIO_LockPin(M1_CURR_SHUNT_U_GPIO_Port, M1_CURR_SHUNT_U_Pin);
 LL_GPIO_LockPin(M1_OPAMP1_EXT_GAIN_GPIO_Port, M1_OPAMP1_EXT_GAIN_Pin);
 LL_GPIO_LockPin(M1_OPAMP1_OUT_GPIO_Port, M1_OPAMP1_OUT_Pin);
@@ -935,6 +934,7 @@ LL_GPIO_LockPin(M1_PWM_VL_GPIO_Port, M1_PWM_VL_Pin);
 LL_GPIO_LockPin(M1_PWM_WH_GPIO_Port, M1_PWM_WH_Pin);
 LL_GPIO_LockPin(M1_PWM_WL_GPIO_Port, M1_PWM_WL_Pin);
 LL_GPIO_LockPin(M1_PWM_UL_GPIO_Port, M1_PWM_UL_Pin);
+LL_GPIO_LockPin(M1_BUS_VOLTAGE_GPIO_Port, M1_BUS_VOLTAGE_Pin);
 }
 /* USER CODE BEGIN mc_task 0 */
 

@@ -1,5 +1,5 @@
 Middlewares/MotorControl/virtual_speed_sensor.o: \
- C:/Users/wamge/Desktop/Neuer\ Ordner/sensorless/MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Src/virtual_speed_sensor.c \
+ C:/Users/wamge/OneDrive/Hochschule/HM\ -\ Elektrotechnik\ MSc/Kurse/1.\ Semester/Projekt\ Elektrische\ Fahrzeugantriebe/GitRep/foc_evspin32g4/sensorless/MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Src/virtual_speed_sensor.c \
  ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/virtual_speed_sensor.h \
  ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/speed_pos_fdbk.h \
  ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/mc_type.h \
@@ -28,8 +28,6 @@ Middlewares/MotorControl/virtual_speed_sensor.o: \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cordic.h \
- ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dac.h \
- ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dac_ex.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h \
@@ -112,10 +110,6 @@ Middlewares/MotorControl/virtual_speed_sensor.o: \
 ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h:
 
 ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cordic.h:
-
-../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dac.h:
-
-../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dac_ex.h:
 
 ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h:
 

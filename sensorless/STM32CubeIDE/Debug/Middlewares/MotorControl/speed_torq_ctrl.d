@@ -1,5 +1,5 @@
 Middlewares/MotorControl/speed_torq_ctrl.o: \
- C:/Users/wamge/Desktop/Neuer\ Ordner/sensorless/MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Src/speed_torq_ctrl.c \
+ C:/Users/wamge/OneDrive/Hochschule/HM\ -\ Elektrotechnik\ MSc/Kurse/1.\ Semester/Projekt\ Elektrische\ Fahrzeugantriebe/GitRep/foc_evspin32g4/sensorless/MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Src/speed_torq_ctrl.c \
  ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/speed_torq_ctrl.h \
  ../../MCSDK_v5.Y.3/MotorControl/MCSDK/MCLib/Any/Inc/mc_type.h \
  ../../Inc/mc_stm_types.h \
@@ -27,8 +27,6 @@ Middlewares/MotorControl/speed_torq_ctrl.o: \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cordic.h \
- ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dac.h \
- ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dac_ex.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h \
@@ -113,10 +111,6 @@ Middlewares/MotorControl/speed_torq_ctrl.o: \
 ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h:
 
 ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cordic.h:
-
-../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dac.h:
-
-../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dac_ex.h:
 
 ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h:
 

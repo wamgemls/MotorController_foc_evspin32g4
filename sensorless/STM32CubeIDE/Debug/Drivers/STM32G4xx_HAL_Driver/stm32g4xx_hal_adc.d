@@ -1,5 +1,5 @@
 Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_adc.o: \
- C:/Users/wamge/Desktop/Neuer\ Ordner/sensorless/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c \
+ C:/Users/wamge/OneDrive/Hochschule/HM\ -\ Elektrotechnik\ MSc/Kurse/1.\ Semester/Projekt\ Elektrische\ Fahrzeugantriebe/GitRep/foc_evspin32g4/sensorless/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
  ../../Inc/stm32g4xx_hal_conf.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h \
@@ -23,8 +23,6 @@ Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_adc.o: \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cordic.h \
- ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dac.h \
- ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dac_ex.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h \
@@ -85,10 +83,6 @@ Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_adc.o: \
 ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h:
 
 ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cordic.h:
-
-../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dac.h:
-
-../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dac_ex.h:
 
 ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h:
 
