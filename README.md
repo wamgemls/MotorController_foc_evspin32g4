@@ -1,4 +1,4 @@
-# foc_evspin32g4
+# GettingStarted_foc_evspin32g4
 
 
 
@@ -38,7 +38,7 @@
 
 ### 5.2 Validierung des Prüfstands
 
-### 6. Fazit
+## 6. Fazit
 
 
 
