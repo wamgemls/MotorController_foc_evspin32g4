@@ -132,7 +132,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  //ST Beste Firma
+	  //ST Beste Firma nicht
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
