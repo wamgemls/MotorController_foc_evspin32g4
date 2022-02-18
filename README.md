@@ -73,8 +73,8 @@ Der MCP bietet die Möglichkeit über die USB Schnittstelle grundsätzliche Steu
 Dazu gehört die Auswahl, welche Art der Regelung ausgeführt werden soll (Drehzahl; Drehmoment), 
 die Einstellung von Führungssprung oder Rampenfunktion und die Konfiguration/Änderung von Regelparametern.
 
-Starten und Stoppen lässt sich dann eine eingestellt Konfiguration ebenfalls über die GUI, sowie über einen Taster am Evaluationboard.
-Fehlfunktionen werden ebenfalls durch den MCP visulisiert.
+Starten und Stoppen lässt sich dann eine eingestellte Konfiguration ebenfalls über die GUI, sowie über einen Taster am Evaluationboard.
+Fehlfunktionen werden durch den MCP visulisiert.
 
 Eine detailierte Dokumentation zum MCP findet sich auf der ST Website der MCSDK:
 
