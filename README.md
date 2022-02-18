@@ -21,11 +21,12 @@ Für die Verwendung innerhalb von Windows sind die folgende Tools zu installiere
 Dabei kann entsprechend dieser Anleitung vorgegangen werden:
 https://articles.assembla.com/en/articles/748191-set-up-git-on-windows-with-tortoisegit
 
-Um das vorliegende Repository in den eigenen Git Account zu übertragen 
-Nachdem der Git Account in dem das Online-Repository vorliegt in TortoiseGit registriert 
-wurde, kann ein lokales Repository als Klon über das Rechtsklickmenü erstellt werden.
+Das vorliegende Repository wird durch einen Fork in den eigenen Git Account übertragen.
+Ist der Git Account in dem der Fork vorliegt in TortoiseGit registriert, kann dann ein lokales Repository 
+als Klon über das Rechtsklickmenü erstellt werden.
+Dabei kann entsprechend dieser Anleitung vorgegangen werden: https://tortoisegit.org/docs/tortoisegit/tgit-dug-clone.html
 
-Nun lässt sich mit den typischen Git Funktionalitäten das Repository verwalten.
+Nun lässt sich mit den typischen Git Funktionalitäten (Commit/Push/Pull/Staging) das Repository verwalten.
 
 ## 2. STM32CubeIDE
 
@@ -37,7 +38,7 @@ https://www.st.com/en/development-tools/stm32cubeide.html
 
 Nach der Installation, lässt sich die Projektdatei \sensorless\STM32CubeIDE\.project 
 in den Workspace der IDE laden. 
-Die IDE basiert auf der Eclipse IDE und bietet insofern eine vergleichbare Benutzeroberfläche.
+Die IDE basiert auf Eclipse und bietet insofern eine vergleichbare Benutzeroberfläche.
 
 Eine ausführliche Anleitung ist auf der Website von ST abrufbar:
 https://www.st.com/resource/en/user_manual/um2609-stm32cubeide-user-guide-stmicroelectronics.pdf
