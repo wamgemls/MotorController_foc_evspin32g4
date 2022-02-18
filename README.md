@@ -18,6 +18,7 @@ Für die Verwendung innerhalb von Windows sind die folgende Tools zu installiere
  - TortoiseGit
 
 Dabei kann entsprechend dieser Anleitung vorgegangen werden:
+
 https://articles.assembla.com/en/articles/748191-set-up-git-on-windows-with-tortoisegit
 
 Das vorliegende Repository wird durch einen Fork in den eigenen Git Account übertragen.
@@ -60,8 +61,8 @@ Innerhalb des Konsolenfensters wird der Prozess dokumentiert.
 
 ## 4. Motor Control Pilot
 
-Der Motor Control Pilot (MCP) ist Teil des STM32 Motor Control Software Development Kit (MCSDK), welches 
-unter folgender Adresse verfügbar ist:
+Der Motor Control Pilot (MCP) ist Teil des STM32 Motor Control Software Development Kit (MCSDK).
+Unter folgender Adresse verfügbar:
 
 https://www.st.com/en/embedded-software/x-cube-mcsdk.html#overview
 
@@ -70,8 +71,7 @@ beziehungsweise nicht kompatibel zu dem benannten Evaluationboard ist.
 
 Der MCP bietet die Möglichkeit über die USB Schnittstelle grundsätzliche Steuerungsbefehle an das Evaluationboard zu senden.
 Dazu gehört die Auswahl, welche Art der Regelung ausgeführt werden soll (Drehzahl; Drehmoment), 
-die Einstellung von Führungssprung oder Rampenfunktion und es lassen sich Regelparameter über die Benutzeroberfläche 
-konfigurieren und ändern.
+die Einstellung von Führungssprung oder Rampenfunktion und die Konfiguration/Änderung von Regelparametern.
 
 Starten und Stoppen lässt sich dann eine eingestellt Konfiguration ebenfalls über die GUI, sowie über einen Taster am Evaluationboard.
 Fehlfunktionen werden ebenfalls durch den MCP visulisiert.
