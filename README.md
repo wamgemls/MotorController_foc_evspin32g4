@@ -1,17 +1,26 @@
-# GettingStarted_foc_evspin32g4
-## 1. Einführung
+# QuickStartGuide_foc_evspin32g4
 
-## 2. Anforderungen
+Dieser Quick Start Guide soll den Workflow von der Erstellung des lokalen Git Repository bis hin 
+zum Start der feldorientierten Regelung auf dem Evaluationboard evspin32g4 von ST aufzeigen.
 
-## 3. Entwurf
+Folgende Hardware Komponenten sind notwendig:
+ - Evalutationboard evspin32g4
+ - BLDC Motor (Nanotec DB59C024035-A)
+ - Spannungsversorgung
+ 
+## 1. Klonen des Git Repository
 
-## 4. Implementierung
-### 4.1 Hardware
 
-### 4.2 Software
+
+
+## 2. Start der STM32CubeIDE
+
+## 3. Flashen des Quellcode
+
+## 4. Start des Motor Control Pilot
 
 ## 5. Verifikation & Validierung
-### 5.1 Komponentenfunktionstest
+
 
 ### 5.2 Validierung des Prüfstands
 
