@@ -1,7 +1,9 @@
 # QuickStartGuide_foc_evspin32g4
 
+Ziel ist die Inbetriebnahme einer feldorientierten Drehzahlregelung auf dem Evaluationboard EVSPIN32G4 von ST mit einem BLDC Motor.
+
 Dieser Quick Start Guide soll den Workflow von der Erstellung des lokalen Git Repository bis hin 
-zum Start der feldorientierten Regelung auf dem Evaluationboard evspin32g4 von ST aufzeigen.
+zum Start der feldorientierten Regelung aufzeigen.
 
 Folgende Hardware Komponenten sind zur Inbetriebnahme der feldorientierten Regelung notwendig:
  - Evalutationboard evspin32g4
@@ -19,6 +21,7 @@ Für die Verwendung innerhalb von Windows sind die folgende Tools zu installiere
 Dabei kann entsprechend dieser Anleitung vorgegangen werden:
 https://articles.assembla.com/en/articles/748191-set-up-git-on-windows-with-tortoisegit
 
+Um das vorliegende Repository in den eigenen Git Account zu übertragen 
 Nachdem der Git Account in dem das Online-Repository vorliegt in TortoiseGit registriert 
 wurde, kann ein lokales Repository als Klon über das Rechtsklickmenü erstellt werden.
 
@@ -53,8 +56,23 @@ Innerhalb des Konsolenfensters wird der Prozess dokumentiert.
 
 ## 4. Motor Control Pilot
 
-Der Motor Control Pilot (MCP) ist Teil des STM32 Motor Control Software Development Kit, welches unter folgender Adresse verfügbar ist:
+Der Motor Control Pilot (MCP) ist Teil des STM32 Motor Control Software Development Kit (MCSDK), welches 
+unter folgender Adresse verfügbar ist:
 https://www.st.com/en/embedded-software/x-cube-mcsdk.html#overview
+
+Wichtig ist die Installation einer aktuellen Version (> 5.5.2), da sonst der MCP nicht mitgeliefert wird,
+beziehungsweise nicht kompatibel zu dem benannten Evaluationboard ist.
+
+Der MCP bietet die Möglichkeit über die USB Schnittstelle grundsätzliche Steuerungsbefehle an das Evaluationboard zu senden.
+Dazu gehört die Auswahl, welche Art der Regelung ausgeführt werden soll (Drehzahl; Drehmoment), 
+die Einstellung von Führungssprung oder Rampenfunktion und es lassen sich Regelparameter über die Benutzeroberfläche 
+konfigurieren und ändern.
+Starten und Stoppen lässt sich dann eine eingestellt Konfiguration ebenfalls über die GUI, sowie über einen Taster am Evaluationboard.
+Fehlfunktionen werden ebenfalls durch den MCP visulisiert.
+
+Eine detailierte Dokumentation zum MCP findet sich auf der ST Website der MCSDK:
+https://www.st.com/resource/en/user_manual/um2380-stm32-motor-control-sdk-v54-tools-stmicroelectronics.pdf
+
 
 
 
