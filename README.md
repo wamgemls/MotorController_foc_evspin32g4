@@ -25,6 +25,16 @@ Nun lässt sich mit den typischen Git Funktionalitäten das Repository verwalten
 
 ## 2. Start der STM32CubeIDE
 
+Liegt das Git Repository für die feldorientierte Regelung im lokalen Ordner vor, so kann im nächsten Schritt
+die Projektdatei mit der Entwicklungsumgebung gestartet werden.
+
+Es bietet sich die Nutzung der STM32CubeIDE von ST an:
+https://www.st.com/en/development-tools/stm32cubeide.html
+
+Nach der Installation, lässt sich die Projektdatei \sensorless\STM32CubeIDE\.project 
+in den Workspace der IDE laden.
+
+
 
 
 ## 3. Flashen des Quellcode
