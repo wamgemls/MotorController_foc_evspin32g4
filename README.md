@@ -69,6 +69,10 @@ https://www.st.com/en/embedded-software/x-cube-mcsdk.html#overview
 Wichtig ist die Installation einer aktuellen Version (> 5.5.2), da sonst der MCP nicht mitgeliefert wird,
 beziehungsweise nicht kompatibel zu dem benannten Evaluationboard ist.
 
+Die Kommunikationsverbindung zum Evaluationboard wird über die Auswahl des COM Ports und der Baudrate 
+von 1843200 Bd (wenn nicht anders konfiguriert) initiert. Es kann immer nur eine Anwendung auf den COM Port zugreifen,
+eine mögliche Debug Verbindung der STM32CubeIDE kann die Herstellung der Verbindung stören.
+
 Der MCP bietet die Möglichkeit über die USB Schnittstelle grundsätzliche Steuerungsbefehle an das Evaluationboard zu senden.
 Dazu gehört die Auswahl, welche Art der Regelung ausgeführt werden soll (Drehzahl; Drehmoment), 
 die Einstellung von Führungssprung oder Rampenfunktion und die Konfiguration/Änderung von Regelparametern.
